@@ -22,4 +22,9 @@
         android:name="com.home.brewerhelper.ui.slideshow.SlideshowFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_carbonationcalc"
+        android:name="com.home.brewerhelper.ui.carbonation.CarbonationCalculatorFragment"
+        android:label="@string/menu_carbcalc"
+        tools:layout="@layout/fragment_carbonation_calculator" />
 </navigation>

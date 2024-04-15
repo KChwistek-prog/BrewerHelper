@@ -26,10 +26,6 @@ class CarbonationCalculatorFragment : Fragment() {
         _binding = FragmentCarbonationCalculatorBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textCarbcalc
-        carbonationViewModel.text.observe(viewLifecycleOwner) {
-            textView.text = it
-        }
         return root
     }
 

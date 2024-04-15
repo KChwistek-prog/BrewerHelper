@@ -4,7 +4,6 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
 import com.home.brewerhelper.databinding.FragmentCarbonationCalculatorBinding
@@ -20,9 +19,6 @@ class CarbonationCalculatorFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View {
-        val carbonationViewModel =
-            ViewModelProvider(this).get(CarbonationViewModel::class.java)
-
         _binding = FragmentCarbonationCalculatorBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
